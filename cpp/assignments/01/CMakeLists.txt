@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(assignment_01 src/main.cpp src/analysis.cpp
-        include/array_guard.h)
+        src/debugging.cpp)
 
 target_include_directories(assignment_01 PRIVATE include)
 
