@@ -3,7 +3,6 @@
 //
 
 #include <iostream>
-#include <ranges>
 // Case 1 - A returned reference
 //  const int& larger(int a, int b) {
 //     int result = a > b ? a : b;
@@ -44,7 +43,7 @@ void cleanup() {
 //      *value = 0;
 //  }
 
-void reset(int * const value) {
+void reset(int* const value) {
     *value = 0;
 }
 
